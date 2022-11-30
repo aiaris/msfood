@@ -1,0 +1,39 @@
+.for-get {
+  width: 780px;
+  margin: 180px auto 280px;
+}
+.for-get > div:first-child {
+  width: 286px;
+  margin: 20px auto;
+  font-size: 30px;
+  color: #333;
+}
+.for-get > div:first-child > img {
+  vertical-align: middle;
+  height: 40px;
+}
+.for-get > div:first-child > span:nth-child(2) {
+  margin: 15px;
+  color: #999;
+}
+.el-form-item {
+  width: 700px;
+}
+.for-get > div:last-child {
+  margin-left: 100px;
+  color: #999;
+}
+.el-button--primary.w {
+  background-color: #f56c6c;
+  border-color: #f56c6c;
+  width: 200px !important;
+  margin: 0 150px;
+}
+.el-input__inner:focus {
+  border-color: #f56c6c;
+}
+.el-button--primary:focus,
+.el-button--primary:hover {
+  background-color: #fa6c6c;
+  border-color: #fa6c6c;
+}

@@ -1,0 +1,161 @@
+.ntop {
+  height: 40px;
+  position: relative;
+}
+.nav {
+  height: 40px;
+  background-color: #333;
+  /* 加个小阴影 */
+  box-shadow: 0 1px 2px #666;
+  display: flex;
+  justify-content: center;
+  position: fixed;
+  z-index: 100;
+  width: 100%;
+}
+.btli {
+  width: 70px;
+  line-height: 40px;
+  margin-left: 25px;
+  text-align: center;
+  font-size: 14px;
+}
+.navlist {
+  display: flex;
+}
+
+.bt1 {
+  width: 120px;
+}
+
+.bi {
+  margin: 13px 10px 0 0;
+  font-style: normal;
+  font-weight: bold;
+}
+
+.navlist a {
+  color: #ccc;
+  display: block;
+}
+
+.navlist a:hover {
+  background-color: #666;
+  color: #f1f1f1;
+}
+
+.droplist {
+  /* 下拉列表颜色 */
+  background: #333;
+  box-shadow: 0 1px 2px #333;
+  /* 消失 */
+  display: none;
+  border-radius: 6px;
+  overflow: hidden;
+  white-space: nowrap;
+  width: 50px;
+}
+
+/* 鼠标移入显示 */
+.bt2:hover .droplist {
+  display: block;
+}
+
+.droplist li {
+  border-top: 1px solid #666;
+}
+.bt2 i {
+  display: block;
+  overflow: hidden;
+  width: 0;
+  height: 0;
+  border: 4px dashed transparent;
+  border-top: 6px solid #ccc;
+  margin: 18px auto 0;
+  font-style: normal;
+}
+.navright {
+  display: flex;
+}
+.navright .btri {
+  width: 60px;
+  line-height: 40px;
+  text-align: center;
+  color: #f1f1f1;
+  margin: 0;
+  font-size: 13px;
+}
+.rightlist {
+  /* 消失 */
+  color: #f1f1f1;
+  display: none;
+  border-radius: 6px;
+  overflow: hidden;
+  background: #59c3d1;
+  width: 60px;
+  position: absolute;
+}
+.btr2:hover .rightlist {
+  display: block;
+}
+.navright a {
+  color: #f1f1f1;
+  display: block;
+}
+.nr3 {
+  background: #fe5761;
+}
+.nr2 {
+  background-color: #ffa859;
+}
+.nr1 {
+  background: #59c3d1;
+}
+.rightbbtn {
+  display: flex;
+}
+.rbtn {
+  display: block;
+  background-color: #f1f1f1;
+  border-radius: 10px;
+  height: 30px;
+  margin-top: 5px;
+  margin-right: 20px;
+  width: 80px;
+}
+.bttn {
+  color: #666;
+  font-size: 13px;
+  padding: 10px;
+  text-align: center;
+  line-height: 30px;
+}
+.user_avatar {
+  user-select: none;
+  display: flex;
+  width: 100px;
+}
+.user_avatar > a > img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-right: 5px;
+}
+.user_avatar > span {
+  width: 60px;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  color: white;
+  background-color: #aaa;
+  font-size: 14px;
+}
+.user_avatar > span:hover {
+  background-color: #fff;
+  color: #ffa859;
+}
+.el-button--primary {
+  width: 60px !important;
+  background-color: #f56c6c !important;
+  border-color: #f56c6c !important;
+}

@@ -1,0 +1,60 @@
+.slindex{
+    width: 1000px;
+    margin: 0 auto ;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.jksl{
+    width: 310px;
+    height: 386px;
+}
+.jksl .jkslnav{
+    width: 308px;
+}
+.jksl .jkslnav a{
+    color: #666;
+    font-size: 20px;
+    
+}
+.jksl .jkslnav .jknar3{
+    font-size: 16px;
+    margin-left: 200px;
+}
+.jksl .jkslnav a:first-child{
+    color:#ff6767
+}
+.jksl .jkslnav .jknar3:hover{
+    color: #ff6767;
+}
+.jksl .jkslnav .jknar4:hover{
+    color: #ff6767;
+}
+.jksl .jkslnav .jknar4{
+    font-size: 16px;
+    margin-left: 160px;
+}
+.jkslt {
+  width: 310px;
+  height: 124px;
+}
+.jksl ul li{
+    margin-top: 8px;
+}
+.jksl ul li a{
+    width: 310px;
+    display: inline-block;
+    color: #666;
+    overflow:hidden;
+    text-overflow:ellipsis;
+    white-space:nowrap;
+
+}
+.jksl ul li a:hover{
+    color: #ff6767;
+}
+.jksl .jsdinr{
+    width: 310px;
+    overflow:hidden;
+    font-size:18px;
+}

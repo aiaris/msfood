@@ -1,0 +1,117 @@
+.health{
+  width: 1000px;
+  margin:30px auto;
+}
+.f1{
+  display: flex;
+  justify-content: space-between;
+}
+.f1>div:first-child{
+  display:inline-flex;
+}
+.f1>div:first-child>button{
+ height: 40px;
+ margin-left: 50px;
+ font-size: 18px;
+}
+.health-cell{
+  display: inline-flex;
+  align-items: center;
+  height:150px;
+  padding: 10px;
+  border-bottom: 1px solid #999;
+  width: 1000px;
+  cursor: pointer;
+  transition:all 0.6s;
+}
+.health-cell img{
+  margin: 0 30px 5px 0 ;
+  height:90%;
+}
+.health-cell img:hover{
+  transform: scale(1.1);
+  
+}
+.health-cell div{
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+  width: 600px;
+}
+.health-cell div>h3:hover{
+  color: #F56C6C;
+}
+.health-cell div>div{
+  margin: 20px;
+  font-size: 12px;
+  color: #888;
+}
+.health-cell div>p{
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.health-detail{
+  width: 1000px;
+  margin: 30px auto;
+}
+.health-detail .mbx{
+  padding: 15px;
+  margin-bottom: 15px;
+  border-bottom: 1px solid #aaa;
+  display: flex;
+  color: #666;
+  font-size: 14px;
+}
+.el-breadcrumb {
+  margin-top: 3px;
+}
+.health-detail >>>.zw>div:nth-child(2){
+  font-size: 14px;
+  color: #999;
+  margin: 20px 0;
+}
+.health-detail >>>.zw>div:last-child>p,.health-detail >>>.zw>div:last-child>b{
+  margin: 23px 0;
+  display: block;
+}
+.health_tjlj h2{
+margin: 40px 0 10px;
+color: #333;
+}
+.health_tjlj div{
+    color: #333;
+}
+.health_tjlj h4{
+ padding:10px 0;
+ cursor: pointer;
+}
+.health_tjlj h4:hover{
+    color: #FE5761;
+}
+.health_tjlj p{
+    height: 30px;
+    font-size: 14px;
+    color: #999;
+    width: 800px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.health-search{
+  width: 1000px;
+  margin: 0 auto;
+}
+.search{
+  margin: 10px 4px;
+  border-bottom: 1px solid #eee;
+  display: flex;
+  justify-content: space-between;
+  color: #666;
+  font-size: 14px;
+}
+.search>span:first-child{
+  font-size: 18px;
+  color:#FE5761;
+  font-weight: 700;
+}

@@ -1,0 +1,123 @@
+.main {
+    padding: 20px;
+}
+
+.mod-up {
+    display: flex;
+    margin-bottom: 20px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.mod-up .m-left {
+    display: flex;
+
+}
+.mod-up .m-left img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+.mod-up .m-left .detail {
+    display: flex;
+    flex-direction: column;
+    margin: 2px 100px 0px 20px;
+
+}
+.mod-up .m-left .detail em {
+    color: #ff6767;
+    font-size: 30px;
+    font-style: normal;
+}
+
+.mod-up .m-left .detail ul{
+    display: flex;
+    text-align: center;
+
+}
+.mod-up .m-left .detail ul li{
+    margin: 20px 25px 0 0;
+    white-space: nowrap;
+}
+
+.mod-up .m-left .detail .btn a{
+     
+        display: inline-block;
+        margin: 15px 10px 0 0;
+        padding: 2px 20px;
+        border: 1px solid #ff6767;
+        color: #ff6767;
+        border-radius: 5px;
+        font-size: 14px;
+
+       
+    
+} 
+.mod-up .m-left .detail .btn a:last-child {
+            background-color: #ff6767;
+            color: #fff;
+        }
+
+.mod-down {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.mod-down .d-left {
+    width: 70%;
+}
+
+.mod-down .d-right img {
+
+    width: 300px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.no_data {
+    padding: 100px;
+    color: #999;
+
+}
+
+.el-tabs__item.is-active {
+    color: #ff6767 !important;
+    font-size: 20px;
+}
+
+.el-form {
+    height: 60px;
+    display: flex;
+    align-items: center;
+}
+
+.el-button {
+    color: #ff6767;
+    border-color: #ff6767;
+}
+
+.el-input>>>.el-input__inner {
+    border-color: #eee !important;
+    margin-left: 10px;
+}

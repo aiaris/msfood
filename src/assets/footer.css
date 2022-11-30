@@ -1,0 +1,53 @@
+.botm {
+    margin: 0 auto;
+    width: 1000px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bomleft {
+    width: 750px;
+    margin-top: 20px;
+    
+}
+
+a {
+    color: #666;
+    font-size: 12px;
+}
+
+a:hover {
+    color: orange;
+}
+
+.nar1 {
+    font-weight: bold;
+    color: #f50;
+    font-size: 14px;
+}
+
+.bomnar1 {
+    margin-top: 10px;
+}
+
+.bomnar1 a {
+    margin-right: 5px;
+}
+
+.bomnar2 {
+    margin-top: 20px;
+}
+
+.bomnar2 a {
+    margin-left: 5px;
+}
+
+.bomnar3 {
+    margin-top: 30px;
+    font-size: 12px;
+}
+
+.bomright {
+    margin-top: 20px;
+}

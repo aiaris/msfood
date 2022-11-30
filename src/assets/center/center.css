@@ -1,0 +1,38 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.el-aside {
+  user-select: none;
+  list-style: none;
+  text-decoration: none;
+  height: 100vh;
+  background-color: #f8f8f8;
+  overflow: visible;
+}
+.el-aside li{
+  text-align: center;
+  padding: 12px 5px;
+}
+.el-aside li.active{
+  background-color: #eee;
+  position: relative;
+  color: #ff6767;
+}
+.el-aside li.active::after {
+  content: "";
+  width: 10px;
+  height: 10px;
+  display: block;
+  background-color: #eee;
+  position: absolute;
+  top: 50%;
+  right: -5px;
+  margin-top: -5px;
+  transform: rotate(45deg);
+}
+.el-aside li:hover{
+    background-color: #eee;
+    position: relative;
+    color: #ff6767;
+}

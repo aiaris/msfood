@@ -1,0 +1,58 @@
+.tab {
+    margin: 0 20px 0 20px;
+    font-size: 20px;
+  }
+  .avatar img{
+    width: 120px;
+    height: 120px;
+    display: block;
+  }
+  .recipe_nav {
+    font-size: 20px;
+  }
+  .recipe_nav:hover {
+    color: #ff6767 !important;
+  }
+  .recipe {
+    position: relative;
+    width: 100%;
+  }
+  
+  .recipe .recipe-btn {
+    text-decoration: none;
+    user-select: none;
+    position: absolute;
+    padding: 0 15px;
+    border-radius: 5px;
+    line-height: 30px;
+    top: 5px;
+    right: 0px;
+    margin-right: 20px;
+    background-color: #ff6767;
+    color: #fff;
+    white-space: nowrap;
+  }
+  .recipe .recipe-btn:hover {
+    opacity: 0.8;
+  }
+  .no_data {
+    padding: 100px;
+    color: #999;
+  }
+  .no_data a {
+    color: black;
+    font-size: 20px;
+  }
+
+  .el-form-item {
+    margin-top: 20px;
+  }
+  
+
+
+  .el-input >>> .el-input__inner {
+    border-color: #eee !important;
+  }
+  .el-radio-group >>> .el-radio-button.is_focus{
+    background-color: #ff6767 !important;
+  }

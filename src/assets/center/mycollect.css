@@ -1,0 +1,114 @@
+.tab {
+  margin: 0 20px 0 20px;
+  font-size: 20px;
+}
+
+.recipe_nav {
+  font-size: 20px;
+}
+.recipe_nav:hover {
+  color: #ff6767 !important;
+}
+.recipe {
+  position: relative;
+  width: 100%;
+}
+
+.recipe .recipe-btn {
+  text-decoration: none;
+  user-select: none;
+  position: absolute;
+  padding: 0 15px;
+  border-radius: 5px;
+  line-height: 30px;
+  top: 5px;
+  right: 0px;
+  margin-right: 20px;
+  background-color: #ff6767;
+  color: #fff;
+  white-space: nowrap;
+}
+.recipe .recipe-btn:hover {
+  opacity: 0.8;
+}
+.no_data {
+  padding: 100px;
+  color: #999;
+}
+.no_data a {
+  color: black;
+  font-size: 20px;
+}
+.el-form {
+  background-color: #f8f8f8;
+  height: 60px;
+  display: flex;
+  align-items: center;
+}
+.el-form-item {
+  margin-top: 20px;
+}
+
+.el-button {
+  color: #ff6767;
+  border-color: #ff6767;
+}
+.el-input >>> .el-input__inner {
+  border-color: #eee !important;
+  margin-left: 10px;
+}
+.create-detail {
+  display: flex;
+  justify-content: space-between;
+  height: 150px;
+  align-items: center;
+  margin: 5px;
+  padding: 3px;
+  border-bottom: 1px solid #ddd;
+}
+.create-detail .create-item {
+  display: flex;
+}
+.create-detail .create-item > div {
+  margin-left: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.create-detail .create-item img {
+  display: block;
+  width: 150px;
+  height: 150px;
+  transform: scale(0.9);
+  transition: 1s;
+}
+.create-detail .create-item img:hover {
+  transform: scale(1);
+}
+.create-detail .create-item > div > p:nth-child(2) {
+  padding: 3px;
+}
+.create-detail .create-item > div > p:nth-child(2) > span:first-child {
+  font-size: 18px;
+  color: goldenrod;
+  margin-right: 5px;
+}
+.create-detail .create-item > div > p:nth-child(3) {
+  width: 500px;
+  height: 43px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.create-detail .create-item > div > p:last-child {
+  margin-top: 3px;
+  font-size: 14px;
+  color: #aaa;
+}
+.create-detail .create-item > div > p:last-child > span {
+  margin-right: 5px;
+}
+.el-button--primary {
+  width: 60px !important;
+  background-color: #f56c6c !important;
+  border-color: #f56c6c !important;
+}

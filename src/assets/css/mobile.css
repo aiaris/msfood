@@ -1,0 +1,80 @@
+.mobile{
+ width: 1000px;
+ margin: 0 auto;
+}
+.top{
+  height: 615px;
+  border-bottom: 1px solid #ddd;
+  display: flex;
+}
+.top>img{
+  width: 500px;
+  margin-right: 70px;
+}
+.top>div{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 400px;
+  margin: 0 auto;
+}
+.top>div>img{
+  width: 90px;
+  margin: 10px auto;
+}
+.top>div>p{
+  color: #999;
+  padding: 20px 0;
+  font-size: 30px;
+}
+.top>div>div{
+  display: flex;
+  margin: 50px auto 0;
+}
+.top>div>div>img{
+  width: 147px;
+}
+.top>div>div>div{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.top>div>div>div>span{
+  width: 170px;
+  line-height: 46px;
+  background-color: #e8e8e8;
+  margin: 5px 10px;
+  text-align: center;
+}
+.top>div>div>div>span>i{
+  color: rgb(209, 43, 43);
+  margin-right: 10px;
+  font-size: 18px;
+}
+.bot{
+  display: flex;
+  margin-top: 60px;
+  justify-content: space-evenly;
+}
+.bot>div{
+  border-right: 1px solid #ddd;
+  padding:0 80px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.bot>div:last-child{
+  border-right:none;
+}
+.bot>div>h3{
+  line-height: 40px;
+  color: #5f5f5f;
+font-size: 28px;
+}
+.bot>div>p{
+  font-size: 22px;
+  color: #999;
+  padding: 20px 0;
+}
+.bot>div>img{
+  width: 118px;
+}
